@@ -3,7 +3,7 @@ let horizontalMenuIsHidden=false;
 setHeader();
 
 function setHeader(){
-    if(window.innerWidth<756 && !horizontalMenuIsHidden){
+    if(window.innerWidth<1024 && !horizontalMenuIsHidden){
 	console.log("hi");
 	document.getElementsByClassName("pure-menu-list")[0].style.display="none";
 	organizeItems("block");
