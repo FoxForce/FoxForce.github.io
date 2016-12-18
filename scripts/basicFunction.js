@@ -1,7 +1,7 @@
 window.onresize=setHeader;
 let horizontalMenuIsHidden=false;
-setHeader();
 setHeaderAndFooter();
+setHeader();
 
 function setHeader(){
     if(window.innerWidth<1024 && !horizontalMenuIsHidden){
