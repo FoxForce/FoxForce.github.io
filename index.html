@@ -5,47 +5,72 @@
     <meta charset="UTF-8"> 
     <link rel="icon" href="resources/fox-force1.png">
     <title> Fox Force </title>
-
-    <link rel="stylesheet" type="text/css" href="styles/pure-min.css">
-    <link rel="stylesheet" type="text/css" href="styles/grids-responsive-min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <script src="https://use.fontawesome.com/cc8681a8c5.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/bootstrap.css" >
+    	<script src="https://use.fontawesome.com/cc8681a8c5.js"></script>
   </head>
   <body>
     <!-- BEGIN HEADER -->
     <header>
       <div id="header" class="header"></div>
     </header>
-<!-- END HEADER -->
     
-    <div class="main-content">
-      <div class="pure-g">
-	<div class="pure-u-md-2-3 pure-u-sm-1-1">
-	  <iframe src="https://player.vimeo.com/video/125665885" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div>
-	<div class="pure-u-md-1-3 pure-u-sm-1-1">
-	   <img class="pure-img" src="pictures/15138538_1115360035237654_7652478971003137335_o.jpg"> 
-	</div>
-      </div>
-      <br>
-      <div class="pure-g black">
-	<div class="content">
-	  <div class="pure-u-1-1">
-	    <h1> Fox Force </h1>
-	    <div class="main-content-textbox">
-	      <p> Este proyecto es desarrollado por alumnos de la escuela de Ingeniería del CETYS Universidad campus Mexicali, el cual consiste en diseñar y fabricar de un avión carguero a control remoto, que compite internacionalmente en eventos organizados por la Sociedad de Ingenieros Automotrices (SAE). El equipo Fox Force ha participado en dichas competencias de manera ininterrumpida desde el año 2011 obteniendo resultados favorables.</p>
-	      </div>
-	  </div>
+    <!-- END HEADER -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <a class="navbar-brand" href="#">
+            <img alt="Brand" src="resources/fox-force1.png" width="30em" height="30em">
+	  </a>
+	  
+	  <ul class="nav navbar-nav">
+	    <li> <a href="#acerca"> Acerca de Nosotros </a> </li>
+	    <li> <a href="#ediciones_previas"> Ediciones Previas </a> </li> <!-- QUitar -->
+	    <li> <a href="#patrocinadores"> Patrocinadores </a> </li> <!-- QUitar -->
+	    <li> <a href="#donar"> Donar </a> </li>
+	    <li> <a href="#contacto"> Contacto </a> </li>
+	  </ul>
 	</div>
       </div>
+    </nav>
+    <div class="row" style="width:100%">
+      <img class="img-responsive" src="https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/14542542_1062042440569414_5467179995506532847_o.jpg?oh=580b99b164c2765451800b6c0fd6fde7&oe=58E73FEA"  alt="Responsive image"
+	   </div>
+    <div class="container wrapper">
+      <h1 id="acerca"> Acerca de Fox Force </h1>
+      <hr>
+      <div class="row">
+	<p> Este proyecto es desarrollado por alumnos de la escuela de Ingeniería del CETYS Universidad campus Mexicali, el cual consiste en diseñar y fabricar de un avión carguero a control remoto, que compite internacionalmente en eventos organizados por la Sociedad de Ingenieros Automotrices (SAE). El equipo Fox Force ha participado en dichas competencias de manera ininterrumpida desde el año 2011 obteniendo resultados favorables.</p>
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/125665885"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+      </div>
+      <h1> Actividades </h1>
+      <div class="row">
+	<div class="col-xs-6 col-md-3">
+	  <a href="#" class="thumbnail">
+	    <img src="pictures/15138538_1115360035237654_7652478971003137335_o.jpg" alt="tamales">
+	  </a>
+	</div>
+      </div>
+      <h1 id="ediciones_previas"> Ediciones Previas </h1>
+      <div class="row">
+      </div>
+      
+      <h1 id="patrocinadores"> Patrocinadores </h1>
+      <div class="row">
+      </div>
+      
+      <h1 id="donar"> Donar </h1>
+      <div class="row">
+	</div>
     </div>
-    <br>
-    <footer class="yellow">
-      <div id="footer"> </div>
-    </footer>
-    
-    <script src="scripts/basicFunction.js">
-    </script>
-  </body>
+    <footer>
+      
+  <div id="footer"> </div>
+</footer>
+
+ <script src="scripts/basicFunction.js">
+     </script>
+</body>
 </html>
+
