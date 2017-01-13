@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Nexa', Fallback, serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -259,6 +259,10 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa Bold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -1082,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nexa" /*, Helvetica, Arial, sans-serif*/;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -4516,7 +4520,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  /*color: #333; */
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
