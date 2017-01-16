@@ -1,5 +1,6 @@
 document.getElementById('menu').onclick=function(){
-    document.getElementById('menu-options').style.display= (document.getElementById('menu-options').style.display == 'none' ? 'block' : 'none');
+    document.getElementById('menu-options').style.display= (document.getElementById('menu-options').style.display == 'none' ||
+							    !document.getElementById('menu-options').hasAttribute('style') ? 'block' : 'none');
     return false;
 };
 
