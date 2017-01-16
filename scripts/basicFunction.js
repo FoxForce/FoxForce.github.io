@@ -1,3 +1,8 @@
+document.getElementById('menu').onclick=function(){
+    document.getElementById('menu-options').style.display= (document.getElementById('menu-options').style.display == 'none' ? 'block' : 'none');
+    return false;
+};
+
 setHeaderAndFooter();
 
 function setHeaderAndFooter(){
