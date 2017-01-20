@@ -26,8 +26,22 @@ section,
 summary {
   display: block;
 }
-a {
-  background-color: transparent;
+footer {
+    background-color: #ffe429;
+    margin-top: 2em;
+    padding-top:2em;
+    padding-bottom:2em;
+    text-align: center;
+}
+#footer > a > i{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+a, a:hover, a:focus, a:visited{
+    text-decoration:inherit;
+    color:inherit;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 h1 {
@@ -82,30 +96,18 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-    font-family: 'Nexa';/*Helvetica, Arial, sans-serif; */
+  font-family: 'Nexa';/*Helvetica, Arial, sans-serif; */
   font-size: 10px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  margin:0;
 }
 body > .container {
     font-size: 17px;
     text-align: justify;
 }
 
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
 figure {
   margin: 0;
 }
@@ -366,7 +368,7 @@ ol {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 23%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -440,25 +442,27 @@ ol {
 .menu{
     float: right;
 }
-#menu-options{
-    float:right;
-}
-@medina (){
-    
+
+ 
+@media (min-width: 769px){
+    .navbar-header > ul{
+	float:right;
+	margin-top:1em;
+    }
 }
 
 @media (max-width: 768px) /*and (orientation: landscape)*/ {
     
     .navbar-header > ul{
+	position:relative;
 	margin-top: 2em;
 	display: none;
-	float:left;
+	float: right;
     }
     .navbar-header .menu{
+	margin-top:0.6em;
+	margin-right: 0.4em;
 	display:inline-block;
-    }
-    #menu-otpions{
-	float:left;
     }
 }
 
@@ -540,6 +544,8 @@ ol {
     background-color: rgba(35, 31, 32, 0.75) /* #231f20 */;
     border-color: transparent/*#e7e7e7*/;
     padding: 0.5em;
+      border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
 }
 .navbar-default .navbar-brand {
   color: #777;
