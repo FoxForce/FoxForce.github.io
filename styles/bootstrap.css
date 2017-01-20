@@ -34,13 +34,12 @@ footer {
     text-align: center;
 }
 #footer > a > i{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 a, a:hover, a:focus, a:visited{
     text-decoration:inherit;
     color:inherit;
-    background-color: transparent;
     cursor: pointer;
 }
 
@@ -90,6 +89,30 @@ th {
 @font-face {
     font-family: 'Nexa';
     src: url('../fonts/Nexa Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Serial Digital';
+    src: url('../fonts/Digital Serial Regular.otf') format('opentype');
+}
+.title{
+    font-family: 'Serial Digital';
+    font-size: 100px;
+    font-weight: bolder;
+}
+.title-small{
+    font-size: 70px;
+}
+.text-yellow{
+    color: #ffdf01;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-black{
+    color: #000000;
+}
+.graybox{
+    background-color: #e9e6e6;
 }
 html {
   font-size: 10px;
