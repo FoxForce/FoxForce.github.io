@@ -94,11 +94,33 @@ th {
     font-family: 'Serial Digital';
     src: url('../fonts/Digital Serial Regular.otf') format('opentype');
 }
+.space-container{
+    padding: 5px;
+}
 .title{
     font-family: 'Serial Digital';
-    font-size: 11em;
-    font-weight: bold;
+    font-weight: bold
 }
+@media (min-width: 993px){
+    .title{
+	font-size: 11em
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    
+    .title{
+	font-size: 7em
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .title{
+	font-size: 5em
+    }
+}
+
 .header{
     font-family: 'Serial Digital';
     font-size: 2em;
