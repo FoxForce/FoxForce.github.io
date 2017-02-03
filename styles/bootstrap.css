@@ -32,9 +32,8 @@ footer {
     margin-top: 2em;
     padding-top:2em;
     padding-bottom:2em;
-    text-align: center;
 }
-#footer > a > i{
+#footer  a  i{
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -531,6 +530,7 @@ ol {
   position: fixed;
   min-height: 20px;
   margin-bottom: 5px;
+  top:0;
   left:0;
   right:0;
   z-index: 1;
@@ -631,4 +631,12 @@ ol {
 .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
+}
+.text-align-left{
+    text-align: left;
+    font-size:1.3em;
+}
+.text-align-right{
+    text-align: right;
+    vertical-align: middle;
 }
