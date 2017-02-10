@@ -633,10 +633,11 @@ ol {
   background-color: transparent;
 }
 .text-align-left{
-    text-align: left;
     font-size:1.3em;
 }
 .text-align-right{
     text-align: right;
-    vertical-align: middle;
+}
+.teams-info{
+    font-size: 2em;
 }
