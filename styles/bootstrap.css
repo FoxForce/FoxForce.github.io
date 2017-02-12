@@ -4,6 +4,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Serial Digital';
+    src: url('../fonts/Digital Serial Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Menu';
+    src: url('../fonts/Digital Serial Regular.otf') format('opentype');
+}
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -83,17 +96,6 @@ th {
   padding: 0;
 }
 
-@font-face {
-    font-family: 'Nexa';
-    src: url('../fonts/Nexa Bold.otf') format('opentype');
-}
-@font-face{
-    font-family: 'Serial Digital';
-    src: url('../fonts/Digital Serial Regular.otf') format('opentype');
-}
-.space-container{
-    padding: 5px;
-}
 .title{
     font-family: 'Serial Digital';
     font-weight: bold
@@ -478,11 +480,15 @@ ol {
 .navbar > center > ul{
     display: inline-block;
     border-bottom-style: solid;
-    border-bottom-color: red;
+    border-bottom-width: 2.5px;
+    border-bottom-color: white;
 }
 .navbar > center > ul > li{
     display: inline-block;
-    padding: 1em;
+    padding: 1.5em;
+    padding-right:4em;
+    padding-left:2em;
+
 }
 
 @media (min-width: 769px){
@@ -505,6 +511,7 @@ ol {
 }
 
 .navbar {
+    font-family: 'Montserrat', sans-serif;
   position: fixed;
   min-height: 20px;
   margin-bottom: 5px;
@@ -523,9 +530,15 @@ ol {
 }
 
 .navbar .navbar-nav > li > a {
+    padding: 0.5em;
     color: #f3f0f0;
     font-size: 1.5em;
-    font-weight: bold;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus{
+    border-style: solid;
+    border-color: white;
+
 }
 .text-align-left{
     font-size:1.3em;
