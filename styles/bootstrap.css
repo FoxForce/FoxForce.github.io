@@ -530,15 +530,15 @@ ol {
 }
 
 .navbar .navbar-nav > li > a {
+    border-style: solid;
+    border-color: transparent;
     padding: 0.5em;
     color: #f3f0f0;
     font-size: 1.5em;
 }
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus{
-    border-style: solid;
     border-color: white;
-
 }
 .text-align-left{
     font-size:1.3em;
