@@ -641,3 +641,6 @@ ol {
 .teams-info{
     font-size: 2em;
 }
+.img-thumbnail-gallery{
+    height: 80px;   
+}
