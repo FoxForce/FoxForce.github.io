@@ -146,8 +146,8 @@ th {
 .text-menu{
     color: #E8E8E8;
 }
-.text-menu-red{
-    color:red;
+.text-menu-donate{
+    color:#FFC901;
 }
 .text-black{
     color: #000000;
@@ -479,7 +479,7 @@ ol {
   }
 }
 
-.navbar-header .menu{
+.navbar .menu{
     display:none;
     color:  #f3f0f0;
     font-weight: bold;
@@ -495,6 +495,7 @@ ol {
     border-bottom-width: 2.5px;
     border-bottom-color: white;
 }
+
 .navbar > center > ul > li{
     display: inline-block;
     padding: 1.5em;
@@ -523,8 +524,7 @@ ol {
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
-  position: fixed;
+  font-family: 'Montserrat', sans-serif;
   min-height: 20px;
   margin-bottom: 5px;
   top:0;
@@ -547,10 +547,17 @@ ol {
     padding: 0.5em;
     font-size: 1.5em;
 }
-.navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus{
+
+.navbar .navbar-nav > li > a.text-menu:hover ,
+.navbar .navbar-nav > li > a.text-menu:focus{
     border-color: white;
 }
+
+.navbar .navbar-nav > li > a.text-menu-donate:hover ,
+.navbar .navbar-nav > li > a.text-menu-donate:focus{
+    border-color: red;
+}
+
 .text-align-left{
     font-size:1.3em;
 }
