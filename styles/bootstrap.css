@@ -13,9 +13,9 @@
     font-family: 'Serial Digital';
     src: url('../fonts/Digital Serial Regular.otf') format('opentype');
 }
-@font-face{
-    font-family: 'Menu';
-    src: url('../fonts/Digital Serial Regular.otf') format('opentype');
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/Intro.otf') format('opentype');
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -91,14 +91,6 @@ hr {
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-td,
-th {
-  padding: 0;
-}
 
 .title{
     font-family: 'Serial Digital';
@@ -154,6 +146,31 @@ th {
 }
 .graybox{
     background-color: #e9e6e6;
+}
+.title-about-yellow{
+    font-family: 'Intro';
+    color:#FFC901;
+    font-size: 5em;
+    font-weight: bold;
+}
+.title-about-black{
+    font-family: 'Lato', sans-serif;
+    color: #171717;
+    font-size: 5em;
+    font-weight: bold;
+}
+.title-history-black{
+    font-family: 'Intro';
+    color: #171717;
+    font-size:6.5em;
+    font-weight: bold;
+}
+.title-history-white{
+    font-family: 'Serial Digital';
+    color: #FFC901;
+    font-style: italic;
+    font-size:6.5em;
+    font-weight: bold;
 }
 html {
   font-size: 10px;
@@ -353,6 +370,9 @@ ol {
 }
 .col-xs-1 {
   width: 8.33333333%;
+}
+.col-xs-0{
+    width: 0%;
 }
 @media (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
