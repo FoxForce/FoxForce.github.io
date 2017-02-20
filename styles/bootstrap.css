@@ -197,6 +197,7 @@ hr {
     text-decoration: none;
     border-radius: 4px;
     border-color: transparent;
+    cursor: pointer;
 }
 .title-activity{
     font-family: 'Intro';
