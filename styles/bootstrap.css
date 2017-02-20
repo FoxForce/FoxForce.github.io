@@ -172,6 +172,18 @@ hr {
     font-size:6.5em;
     font-weight: bold;
 }
+.title-team-black{
+    font-family: 'Intro';
+    color: #171717;
+    font-size:6.5em;
+    font-weight: bold;
+}
+.title-team-yellow{
+    font-family: 'Intro';
+    color: #FFC901;
+    font-size:6.5em;
+    font-weight: bold;
+}
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
