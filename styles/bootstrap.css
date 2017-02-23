@@ -9,6 +9,10 @@
     font-family: 'Nexa';
     src: url('../fonts/Nexa Bold.otf') format('opentype');
 }
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('../fonts/Nexa Light.otf') format('opentype');
+}
 @font-face{
     font-family: 'Serial Digital';
     src: url('../fonts/Digital Serial Regular.otf') format('opentype');
@@ -110,7 +114,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-    
     .title{
 	font-size: 5em
     }
@@ -162,15 +165,16 @@ hr {
 .title-history-black{
     font-family: 'Intro';
     color: #171717;
-    font-size:6.5em;
+    font-size:7em;
     font-weight: bold;
 }
 .title-history-white{
     font-family: 'Serial Digital';
     color: #E8E8E8;
     font-style: italic;
-    font-size:6.5em;
+    font-size: 10em;
     font-weight: bold;
+    line-height: 0.7em;
 }
 .title-team-black{
     font-family: 'Intro';
@@ -205,8 +209,15 @@ hr {
     color: #171717;
     margin-top:1em;
 }
+.lowercase{
+    font-family: 'Nexa Light';
+    text-transform: none;
+}
+br {
+    line-height: 0;
+}
 html {
-  font-size: 10px;
+  ont-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
@@ -608,7 +619,8 @@ ol {
 
 .navbar .navbar-nav > li > a.text-menu-donate:hover ,
 .navbar .navbar-nav > li > a.text-menu-donate:focus{
-    border-color: red;
+    border-color: #ed5b0c;
+
 }
 
 .text-align-left{
