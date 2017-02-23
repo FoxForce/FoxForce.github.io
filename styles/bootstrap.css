@@ -138,12 +138,10 @@ hr {
 .text-white{
     color: #FFFFFF;
 }
-.text-menu{
+.text-menu, .text-menu-donate{
     color: #E8E8E8;
 }
-.text-menu-donate{
-    color:#FFC901;
-}
+
 .text-black{
     color: #000000;
 }
@@ -607,20 +605,17 @@ ol {
 
 .navbar .navbar-nav > li > a {
     border-style: solid;
-    border-color: transparent;
     padding: 0.5em;
     font-size: 1.5em;
+}
+
+.navbar .navbar-nav > li > a.text-menu{
+    border-color: transparent;
 }
 
 .navbar .navbar-nav > li > a.text-menu:hover ,
 .navbar .navbar-nav > li > a.text-menu:focus{
     border-color: white;
-}
-
-.navbar .navbar-nav > li > a.text-menu-donate:hover ,
-.navbar .navbar-nav > li > a.text-menu-donate:focus{
-    border-color: #ed5b0c;
-
 }
 
 .text-align-left{
