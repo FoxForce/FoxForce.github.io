@@ -141,6 +141,9 @@ hr {
 .text-menu, .text-menu-donate{
     color: #E8E8E8;
 }
+.text-menu-black, .text-menu-donate-black{
+    color: #000000;
+}
 
 .text-black{
     color: #000000;
@@ -551,11 +554,18 @@ ol {
 .menu{
     float: right;
 }
+
 .navbar > center > ul{
     display: inline-block;
     border-bottom-style: solid;
     border-bottom-width: 2.5px;
+}
+
+.navbar-default > center > ul{
     border-bottom-color: white;
+}
+.navbar-black > center > ul{
+    border-bottom-color: black;
 }
 
 .navbar > center > ul > li{
@@ -563,7 +573,6 @@ ol {
     padding: 1.5em;
     padding-right:4em;
     padding-left:2em;
-
 }
 
 @media (min-width: 769px){
@@ -609,12 +618,20 @@ ol {
     font-size: 1.5em;
 }
 
-.navbar .navbar-nav > li > a.text-menu{
+.navbar-black .navbar-nav > li > a.text-menu-black{
     border-color: transparent;
 }
 
-.navbar .navbar-nav > li > a.text-menu:hover ,
-.navbar .navbar-nav > li > a.text-menu:focus{
+.navbar-black .navbar-nav > li > a.text-menu-black:hover ,
+.navbar-black .navbar-nav > li > a.text-menu-black:focus{
+    border-color: #000000;
+}
+.navbar-default .navbar-nav > li > a.text-menu{
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a.text-menu:hover ,
+.navbar-default .navbar-nav > li > a.text-menu:focus{
     border-color: white;
 }
 
