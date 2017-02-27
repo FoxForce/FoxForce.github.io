@@ -158,7 +158,7 @@ hr {
     font-weight: bold;
 }
 .title-about-black{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Intro';
     color: #171717;
     font-size: 5em;
     font-weight: bold;
@@ -177,17 +177,18 @@ hr {
     font-weight: bold;
     line-height: 0.7em;
 }
-.title-team-black{
+.title-team-white{
     font-family: 'Intro';
-    color: #171717;
+    color: #E8E8E8;
     font-size:6.5em;
-    font-weight: bold;
+    text-shadow: -7px 10px #171717;
 }
 .title-team-yellow{
     font-family: 'Intro';
     color: #FFC901;
     font-size:6.5em;
     font-weight: bold;
+    text-shadow: -7px 10px #171717;
 }
 .activity-container{
     padding: 2em;
@@ -213,6 +214,10 @@ hr {
 .lowercase{
     font-family: 'Nexa Light';
     text-transform: none;
+}
+.sponsor-container{
+    border-radius: 1em;
+    margin: 0.4em;
 }
 br {
     line-height: 0;
