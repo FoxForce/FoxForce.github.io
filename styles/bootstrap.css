@@ -129,6 +129,9 @@ hr {
     margin-top:0.5em;
     font-size: 17px;
 }
+.old-members{
+    font-size: 0.7em;
+}
 .title-small{
     font-size: 4em;
 }
@@ -645,9 +648,6 @@ ol {
 }
 .text-align-right{
     text-align: right;
-}
-.teams-info{
-    font-size: 2em;
 }
 .img-thumbnail-gallery{
     height: 80px;   
