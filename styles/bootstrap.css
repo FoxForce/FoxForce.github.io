@@ -180,6 +180,20 @@ hr {
     font-weight: bold;
     line-height: 0.7em;
 }
+.sponsorsbk-history-black{
+    font-family: 'Intro';
+    color: #171717;
+    font-size:10em;
+    font-weight: bold;
+}
+.sponsorsbk-history-white{
+        font-family: 'Serial Digital';
+    color: #E8E8E8;
+    font-style: italic;
+    font-size: 7em;
+    font-weight: bold;
+    line-height: 0.7em;
+}
 .title-team-white{
     font-family: 'Intro';
     color: #E8E8E8;
