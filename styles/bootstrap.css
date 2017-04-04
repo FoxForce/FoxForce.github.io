@@ -50,7 +50,10 @@ footer {
     padding-top:2em;
     padding-bottom:2em;
 }
-
+#footer p.text{
+    font-family: 'Nexa Light';
+    font-size: 2em;
+}
 #footer a,#footer  a:visited{
     color: inherit;
 }
