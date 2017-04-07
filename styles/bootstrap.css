@@ -47,12 +47,12 @@ summary {
 footer {
     background-color: #ffe429;
     margin-top: 2em;
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top: 0.5em;
+    padding-bottom:1em;
 }
 #footer p.text{
     font-family: 'Nexa Light';
-    font-size: 2em;
+    font-size: 1.2em;
 }
 #footer a,#footer  a:visited{
     color: inherit;
