@@ -50,6 +50,10 @@ summary {
     width: 100%;
     height: 100%;
 }
+#history-description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px
+}
 footer {
     background-color: #ffe429;
     margin-top: 2em;
@@ -74,7 +78,7 @@ a, a:hover, a:focus, a:visited{
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  -size: 2em;
 }
 small {
   font-size: 80%;

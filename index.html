@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="styles/bootstrap.css" >
 
     <script
-			  src="https://code.jquery.com/jquery-3.1.1.min.js"
-			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet"> 
   </head>
+  
   <body>
     <!-- BEGIN HEADER -->
       <header>
@@ -23,35 +26,34 @@
     <!-- END HEADER -->
 
     <div alt="Pictures header">
-      <img  class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 12%" src="resources/FoxForce.png" width="35%" alt="Responsive header title">
-      <a onclick="moveToText()"><img class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 37%" width="4%" src="resources/Boton_Down.png"> </a>
-   <!-- <img id="header-image" class="img-responsive" src="resources/Banner.png"  width="100%" alt="Responsive image"> -->
+      <img  class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 12%" src="resources/Title.png" width="35%" alt="Responsive header title">
+      <a onclick="moveToText()"><img class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 37%" width="4%" src="resources/ScrollButton.png"> </a>
+          <div id="particles-js"> </div>
     </div>
-
-    <div id="particles-js"> </div>
     
     <div id="acerca" class="container">
       <div class="row">
-	        <div class="col-md-4 col-xs-0">
-  <center><img class="img-responsive" width="300px" src="resources/about.png"  alt="Avion"></center>
+	<div class="col-md-4 col-xs-0">
+	  <center><img class="img-responsive" width="300px" src="resources/Letterin_Photo.png"  alt="Avion"></center>
 	</div>
-  <div class="col-md-8 col-xs-12">
-      <center><p> <span class="title-about-yellow"> Who </span> <span class="title-about-black">we are</span></p> </center>
-	        <p class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a freight aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
-
+	<div class="col-md-8 col-xs-12">
+	  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a freight aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
+	  <a href=""> <img width="50%" style="float: right;" class="img-responsive" src="resources/History_Button.png"></a>
 	</div>
 
       </div>
     </div>
 
     <div alt="History">
+      <!--
         <div style="position:absolute; margin-top:7%; margin-left:5%">
             <center>
                 <p><span class="title-history-black">The History of </span> <br> <span class="title-history-white"> Fox Force </span></p>
             </center>
         </div>
-           <!-- <a href="history.html"> --> <img class="img-responsive" style="position:absolute; margin-top: 23%; margin-left:22%" src="resources/Boton_Right.png"> <!-- </a> -->
-        <img class="img-responsive" width="100%" src="resources/history.png">
+	<img class="img-responsive" style="position:absolute; margin-top: 23%; margin-left:22%" src="resources/Boton_Right.png">
+	-->
+        <img class="img-responsive" width="100%" src="resources/History_Banner.png">
     </div>
 
     <div alt="MeetOurTeam">
@@ -209,7 +211,7 @@ particlesJS("particles-js", {
       },
       "repulse": {
         "distance": 200,
-        "duration": 10
+"duration": 10
       },
       "push": {
         "particles_nb": 4

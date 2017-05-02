@@ -18,5 +18,5 @@ function setHeaderAndFooter(){
 }
 
 function moveToText(){
-    $('html body').animate({scrollTop: $('#acerca').offset().top }, 1000);
+    $('html,body').animate({scrollTop: $('#acerca').offset().top }, 1000);
 }
