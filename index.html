@@ -14,7 +14,10 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  -->
-     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    
   </head>
   
   <body>
@@ -33,10 +36,11 @@
     
     <div id="acerca" class="container">
       <div class="row">
+	<div class="col-md-2 col-xs-0"></div>
 	<div class="col-md-4 col-xs-0">
-	  <center><img class="img-responsive" width="300px" src="resources/Letterin_Photo.png"  alt="Avion"></center>
+	  <left><img class="img-responsive" width="300px" src="resources/Letterin_Photo.png"  alt="Avion"></center>
 	</div>
-	<div class="col-md-8 col-xs-12">
+	<div class="col-md-4 col-xs-12">
 	  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a freight aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
 	  <a href=""> <img width="50%" style="float: right;" class="img-responsive" src="resources/History_Button.png"></a>
 	</div>
@@ -49,11 +53,57 @@
     </div>
     
     <p> Our Sponsors</p>
-   
-	
+    <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Gold</div>
+        <div class="swiper-slide">Silver</div>
+        <div class="swiper-slide">Bronze</div>
+	        <div class="swiper-slide">Bronze</div>
+    </div>
+    
+
+</div>
     <footer id="contacto">
 	<div id="footer"> </div>
     </footer>
+    <style>
+    .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    </style>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script>
+      
+
+  $(document).ready(function () {
+    //initialize swiper when document ready  
+    var mySwiper = new Swiper ('.swiper-container', {
+  // Optional parameters
+  effect:'coverflow',
+  grabCursor: true,
+  slidesPerView: 'auto',
+  loop: true,
+  coverflow: {
+  rotate: 50,
+  stretch: 0,
+  depth: 100,
+  modifier: 1,
+  slideShadows : true
+  }
+  })        
+  });
+    </script>
     
     <script src="scripts/basicFunction.js"></script>
     <script>

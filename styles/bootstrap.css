@@ -52,18 +52,18 @@ summary {
 }
 #history-description{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px
+    font-size: 20px
 }
 footer {
-    background-color: #ffe429;
+    background-color: #EAEAEA;
     margin-top: 2em;
     padding-top: 0.5em;
     padding-bottom:1em;
 }
 #footer p.text{
-    font-family: 'Nexa Light';
-    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;;
 }
+
 #footer a,#footer  a:visited{
     color: inherit;
 }
@@ -257,9 +257,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-    font-family: 'Nexa';
+
 text-transform: uppercase;
-  font-size: 10px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -650,7 +649,7 @@ ol {
 .navbar .navbar-nav > li > a {
     border-style: solid;
     padding: 0.5em;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .navbar-black .navbar-nav > li > a.text-menu-black{
