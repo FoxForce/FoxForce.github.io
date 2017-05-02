@@ -45,7 +45,8 @@ summary {
   display: block;
 }
 #particles-js{
-    position: absolute;
+    /*    position: absolute; */
+    background: black;
     width: 100%;
     height: 100%;
 }
