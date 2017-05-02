@@ -60,7 +60,7 @@ footer {
     padding-top: 0.5em;
     padding-bottom:1em;
 }
-#footer p.text{
+#footer p{
     font-family: 'Montserrat', sans-serif;;
 }
 
@@ -134,13 +134,14 @@ hr {
 
 .header{
     font-family: 'Serial Digital';
-    font-size: 2em;
+    font-size: 1.2em;
     padding-left:3em;
     background-color: #ffb601;
 }
 .member-info{
-    margin-top:0.5em;
-    font-size: 17px;
+    font-family: 'Nexa';
+    margin-top: 0.5em;
+    font-size: 15px;
 }
 .old-members{
     font-size: 0.7em;
