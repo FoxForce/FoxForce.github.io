@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -11,7 +11,6 @@
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
@@ -20,36 +19,35 @@
   
   <body>
     <!-- BEGIN HEADER -->
-      <header>
-          <div style="position:absolute; width: 100%;" id="header">
-          </div>
+    <header>
+      <div style="position:absolute; width: 100%;" id="header">
+      </div>
     </header>
     <!-- END HEADER -->
 
-    <div alt="Pictures header">
+    <div id="header-content" alt="Pictures header">
       <img  class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 12%" src="resources/Title.png" width="35%" alt="Responsive header title">
-      <a onclick="moveToText()"><img class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 37%" width="4%" src="resources/ScrollButton.png"> </a>
-          <div id="particles-js"> </div>
+      <img class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 37%" width="4%" src="resources/ScrollButton.png" onclick="moveToText()">
     </div>
-    
+
     <div id="acerca" class="container">
       <div class="row">
-	<div class="col-md-2 col-xs-0"></div>
-	<div class="col-md-4 col-xs-0">
-	  <left><img class="img-responsive"  width="300px" src="resources/Letterin_Photo.png"  alt="Avion"></center>
-	</div>
-	<div class="col-md-4 col-xs-12">
-	  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a freight aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
-	  <a href=""> <img width="60%" style="float: right;" class="img-responsive" src="resources/History_Button.png"></a>
-	</div>
+	<div class="col-md-6 col-xs-0">
+	  <center><img class="img-responsive"  src="resources/Letterin_Photo.png"  alt="Avion"></center>
+</div>
+<div class="col-md-6 col-xs-12">
+  <h1 id="about-title"> About Us</h1>
+  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a cargo aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
+  <a href=""> <img width="40%" style="float: right;" class="img-responsive" src="resources/learn_more.png"></a>
+</div>
 
-      </div>
-    </div>
+</div>
+</div>
 
-    <div alt="MeetOurTeam">
-        <img class="img-responsive" width="100%" src="resources/Index_Team_Banner.png">
-    </div>
-    
+<div alt="MeetOurTeam">
+  <img class="img-responsive" width="100%" src="resources/Index_Team_Banner.png">
+</div>
+
 <p> Our Sponsors</p>
 <div class="swiper-container">
   <!-- Slides -->
@@ -57,146 +55,10 @@
   <div class="swiper-slide">Silver</div>
   <div class="swiper-slide">Bronze</div>
 </div>
-    <footer id="contacto">
-	<div id="footer"> </div>
-    </footer>
-    
-    <script src="scripts/basicFunction.js"></script>
-    <script>
-/* ---- particles.js config ---- */
+<footer id="contacto">
+  <div id="footer"> </div>
+</footer>
 
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-"value": 60,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-"duration": 10
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-
-
-/* ---- stats.js config ---- */
-
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-    </script>
-    
+<script src="scripts/basicFunction.js"></script>
 </body>
 </html>
