@@ -12,8 +12,7 @@
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet"> 
     
   </head>
   
@@ -26,39 +25,29 @@
     <!-- END HEADER -->
 
     <div id="header-content" alt="Pictures header">
-      <img  class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 12%" src="resources/Title.png" width="35%" alt="Responsive header title">
-      <img class="img-responsive" style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; margin-top: 37%" width="4%" src="resources/ScrollButton.png" onclick="moveToText()">
+      <img  id="header-title" class="img-responsive header-item" src="resources/title.png"  alt="Responsive header title">
+      <img id="header-scroll" class="img-responsive header-item" src="resources/ScrollButton.png" onclick="moveToText('#acerca')">
     </div>
-
     <div id="acerca" class="container">
       <div class="row">
-	<div class="col-md-6 col-xs-0">
-	  <center><img class="img-responsive"  src="resources/Letterin_Photo.png"  alt="Avion"></center>
-</div>
-<div class="col-md-6 col-xs-12">
-  <h1 id="about-title"> About Us</h1>
-  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a cargo aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
-  <a href=""> <img width="40%" style="float: right;" class="img-responsive" src="resources/learn_more.png"></a>
-</div>
+	<div class="col-md-6 col-xs-0 little-col-padding">
+	  <img class="img-responsive"  src="resources/about_lettering.png"  alt="Avion">
+	</div>
+	<div class="col-md-6 col-xs-12 little-col-padding">
+	  <img class="img-responsive" src="resources/about_title.png" alt="About us">
+	  <p id="history-description" class="lowercase"> We are a team with students from a variety of majors of CETYS Universidad Mexicali Campus, where we design, analyze, and manufacture a cargo aircraft with passengers and luggage (represented by tennis balls and steel plates) which is remote-controlled. We have been competing annually in the SAE Aerodesign West event since 2011 with remarkable results.  </p>
+	  <a href=""> <img width="40%" style="float: right; margin-right: 5%;" class="img-responsive" src="resources/learn_more.png"></a>
+	</div>
+      </div>
+    </div>
 
-</div>
-</div>
+    <div alt="MeetOurTeam">
+      <img class="img-responsive" width="100%" src="resources/Index_Team_Banner.png">
+    </div>
+    <footer id="contacto">
+      <div id="footer"> </div>
+    </footer>
 
-<div alt="MeetOurTeam">
-  <img class="img-responsive" width="100%" src="resources/Index_Team_Banner.png">
-</div>
-
-<p> Our Sponsors</p>
-<div class="swiper-container">
-  <!-- Slides -->
-  <div class="swiper-slide">Gold</div>
-  <div class="swiper-slide">Silver</div>
-  <div class="swiper-slide">Bronze</div>
-</div>
-<footer id="contacto">
-  <div id="footer"> </div>
-</footer>
-
-<script src="scripts/basicFunction.js"></script>
-</body>
+    <script src="scripts/basicFunction.js"></script>
+  </body>
 </html>

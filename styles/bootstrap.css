@@ -1,5 +1,6 @@
+/* Modified version of a regular boostrap template */
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Bootstrap v3.3.7 (http://getbootstrap.com) 
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -60,25 +61,34 @@ summary {
 }
 #history-description{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
+    font-weight: 300;
+    font-color: #333333;
 }
 footer {
     background-color: #EAEAEA;
     margin-top: 2em;
     padding-top: 0.5em;
     padding-bottom:1em;
+    text-align: center;
 }
 #footer p{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
-#footer a,#footer  a:visited{
+#footer a, #footer a:visited{
     color: inherit;
 }
-
-#footer  a  i{
+#footer a., #footer  a  i{
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+#footer .footer-social{
+    font-size: 1.5em;
+}
+#footer #footer-page-structure{
+    font-size: 1em;
 }
 a, a:hover, a:focus, a:visited{
     text-decoration:inherit;
@@ -154,7 +164,7 @@ hr {
 .old-members{
     font-size: 0.7em;
 }
-.title-smal{l
+.title-small{
     font-size: 4em;
 }
 .text-yellow{
@@ -163,10 +173,10 @@ hr {
 .text-white{
     color: #FFFFFF;
 }
-.text-menu, .text-menu-donate{
+.text-menu{
     color: #E8E8E8;
 }
-.text-menu-black, .text-menu-donate-black{
+.text-menu-black{
     color: #000000;
 }
 
@@ -266,12 +276,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-
-text-transform: uppercase;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-  margin:0;
+    text-transform: uppercase;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin:0;
 }
 body > .container {
     font-size: 17px;
@@ -601,22 +610,13 @@ ol {
 .navbar  > ul{
     display: inline-block;
     float: right;
-/*    border-bottom-style: solid;
-    border-bottom-width: 2.5px; */
-}
-
-.navbar-default  > ul{
-    border-bottom-color: white;
-}
-.navbar-black  > ul{
-    border-bottom-color: black;
 }
 
 .navbar > ul > li{
     display: inline-block;
     padding: 1.5em;
-    padding-right:4em;
-    padding-left:2em;
+    padding-right:1em;
+    padding-left:1em;
 }
 
 @media (min-width: 769px){
@@ -653,30 +653,34 @@ ol {
 }
 
 .navbar-brand img{
-  display: inline-block;
+    display: inline-block;
+    margin-rigth:1em;
+    margin-top: 1em;
 }
 
 .navbar .navbar-nav > li > a {
-    border-style: solid;
+    border-bottom-style: solid;
     padding: 0.5em;
     font-size: 1em;
 }
 
 .navbar-black .navbar-nav > li > a.text-menu-black{
-    border-color: transparent;
+    border-bottom-color: transparent;
 }
 
 .navbar-black .navbar-nav > li > a.text-menu-black:hover,
 .navbar-black .navbar-nav > li > a.text-menu-black:focus{
-    border-color: #000000;
-}
-.navbar-default .navbar-nav > li > a.text-menu{
-    border-color: transparent;
+    border-bottom-color: #efefef;
 }
 
+.navbar-default .navbar-nav > li > a.text-menu{
+    border-bottom-color: transparent;
+    font-weight: 300;
+}
 .navbar-default .navbar-nav > li > a.text-menu:hover ,
 .navbar-default .navbar-nav > li > a.text-menu:focus{
-    border-color: white;
+    border-color: #efefef;
+    font-weight: 400;
 }
 
 .text-align-left{
@@ -688,6 +692,27 @@ ol {
 .img-thumbnail-gallery{
     height: 80px;   
 }
-#about-title{
-    
+.header-item{
+    position: absolute;/*
+    margin-left: auto;
+    margin-right: auto;
+    right:0;
+    left:0%;*/
+}
+#header-title{
+    left: 10%;
+    top:50%;
+    transform: translateY(-50%);
+    width:45%
+}
+#header-scroll{
+    left:30%;
+    top: 80%;
+    width: 5%;
+    cursor:pointer; 
+}
+.little-col-padding{
+    box-sizing: border-box;
+    padding-left: 1%;
+    padding-right: 1%;
 }
