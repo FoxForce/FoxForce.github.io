@@ -61,9 +61,9 @@ summary {
 }
 #history-description{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6em;
+    font-size: 18px;
     font-weight: 300;
-    font-color: #333333;
+    color: #333333;
 }
 footer {
     background-color: #EAEAEA;
@@ -85,10 +85,10 @@ footer {
     margin-right: 0.5em;
 }
 #footer .footer-social{
-    font-size: 1.5em;
+    font-size: 18px;
 }
 #footer #footer-page-structure{
-    font-size: 1em;
+    font-size: 12px;
 }
 a, a:hover, a:focus, a:visited{
     text-decoration:inherit;
@@ -127,38 +127,15 @@ hr {
           box-sizing: content-box;
 }
 
-.title{
-    font-family: 'Serial Digital';
-    font-weight: bold
-}
-@media (min-width: 993px){
-    .title{
-	font-size: 11em
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px){
-    
-    .title{
-	font-size: 7em
-    }
-}
-
-@media (max-width: 768px) {
-    .title{
-	font-size: 5em
-    }
-}
-
 .header{
     font-family: 'Serial Digital';
-    font-size: 1.2em;
+    font-size: 18px;
     padding-left:3em;
     background-color: #ffb601;
 }
 .member-info{
     font-family: 'Nexa';
-    margin-top: 0.5em;
+    margin-top: 12px;
     font-size: 15px;
 }
 .old-members{
@@ -283,7 +260,7 @@ body {
     margin:0;
 }
 body > .container {
-    font-size: 17px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -661,7 +638,7 @@ ol {
 .navbar .navbar-nav > li > a {
     border-bottom-style: solid;
     padding: 0.5em;
-    font-size: 1em;
+    font-size: 18px;
 }
 
 .navbar-black .navbar-nav > li > a.text-menu-black{
@@ -693,11 +670,7 @@ ol {
     height: 80px;   
 }
 .header-item{
-    position: absolute;/*
-    margin-left: auto;
-    margin-right: auto;
-    right:0;
-    left:0%;*/
+    position: absolute;
 }
 #header-title{
     left: 10%;
@@ -706,13 +679,17 @@ ol {
     width:45%
 }
 #header-scroll{
-    left:30%;
-    top: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    right:0;
+    left:0%;
+    top: 100%;
+    transform: translateY(-105%);
     width: 3%;
     cursor:pointer; 
 }
 .little-col-padding{
     box-sizing: border-box;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
