@@ -19,19 +19,19 @@
   <body>
     <!-- BEGIN HEADER -->
     <header>
-      <div style="position:absolute; width: 100%;" id="header">
+      <div id="header">
       </div>
     </header>
     <!-- END HEADER -->
 
-    <div id="header-content" alt="Pictures header">
+    <div id="about-header" class="header-content" alt="Pictures header">
       <img  id="header-title" class="img-responsive header-item" src="resources/title.png"  alt="Responsive header title">
       <img id="header-scroll" class="img-responsive header-item" src="resources/ScrollButton.png" onclick="moveToText('#acerca')">
     </div>
     <div id="acerca" class="container">
       <div class="row">
-	<div class="col-md-6 col-xs-0 little-col-padding">
-	  <img class="img-responsive"  src="resources/about_lettering.png"  alt="Avion">
+	<div class="col-md-6 col-xs-0">
+	  <img id="about-image" class="img-responsive"  src="resources/about_lettering.png"  alt="Avion">
 	</div>
 	<div class="col-md-6 col-xs-12 little-col-padding">
 	  <br>
@@ -43,8 +43,7 @@
       </div>
     </div>
 <br>
-    <div alt="MeetOurTeam">
-      <img class="img-responsive" width="100%" src="resources/team_banner.png">
+    <div id="about-team" alt="MeetOurTeam">
       <a href="organization.html"> <img id="team-button" src="resources/team_button.png"> </a>
     </div>
     <footer id="contacto">
