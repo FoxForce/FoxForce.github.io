@@ -681,7 +681,7 @@ ol {
 #header-scroll{
     margin-left: auto;
     margin-right: auto;
-    right:0;
+    right:0%;
     left:0%;
     top: 100%;
     transform: translateY(-150%);
@@ -692,4 +692,13 @@ ol {
     box-sizing: border-box;
     padding-left: 3%;
     padding-right: 3%;
+}
+#team-button{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right:0%;
+    left:0%;
+    width: 20%;
+    transform: translateY(-110%);
 }
