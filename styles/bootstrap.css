@@ -638,7 +638,7 @@ ol {
 .navbar .navbar-nav > li > a {
     border-bottom-style: solid;
     padding: 0.5em;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .navbar-black .navbar-nav > li > a.text-menu-black{
@@ -684,7 +684,7 @@ ol {
     right:0;
     left:0%;
     top: 100%;
-    transform: translateY(-105%);
+    transform: translateY(-150%);
     width: 3%;
     cursor:pointer; 
 }
